@@ -24,6 +24,7 @@ number_text = input("Please, enter a number: ")
 number = int(number_text)
 print("This is the table: ",number)
 if number > 0:
+#for (para cada) i(ingrediente) in (en la lista) range(1, 11) (de ingredientes del 1 al 10): (haz lo siguiente)
     for i in range(1,11):
         multiplicacion = number * i
         print(number,"*",i,"=",multiplicacion)
